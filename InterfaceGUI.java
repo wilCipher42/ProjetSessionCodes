@@ -257,6 +257,9 @@ public class InterfaceGUI {
 		Bus b5 = new Bus(network.stations.get(4).getBus().get(0).getID());
 		Bus b6 = new Bus(network.stations.get(6).getBus().get(0).getID());
 
+		/*On les affiches soit en vert ou en rouge dependemment de la disponibilité des places
+  			avec la méthode iconBus()
+		*/
 		bus1_icon.setIcon(Bus.iconBus(b1));
 		bus2_icon.setIcon(Bus.iconBus(b2));		
 		bus3_icon.setIcon(Bus.iconBus(b3));		
